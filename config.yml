@@ -1,0 +1,139 @@
+baseURL: "https://onus.fun/"
+title: OnusFun
+paginate: 10
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable Google Analytics, opengraph, twitter-cards and schema.
+  title: OnusFun
+  description: "Enjoy Life"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["data:image/jpeg;base64,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"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Enjoy Life
+
+  socialIcons:
+#    - name: twitter
+#      url: "https://twitter.com/"
+#    - name: stackoverflow
+#      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://annamaple.github.io/"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+#  editPost:
+#    URL: "https://github.com/<path_to_repo>/content"
+#    Text: "Suggest Changes" # edit text
+#    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: WiKi
+      url: https://adityatelange.github.io/hugo-PaperMod/
+      weight: 30
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
